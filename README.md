@@ -1,24 +1,25 @@
-Contribution: 2019-12-05 20:00
+# MEAN stack Authentication and Authorization example
 
-Contribution: 2019-12-05 20:01
+Build MEAN stack JWT Authentication & Authorization example with HttpOnly Cookie and JWT.
 
-Contribution: 2019-12-10 20:00
+## Flow for User Registration and User Login
 
-Contribution: 2019-12-10 20:01
+For JWT – Token based Authentication with Rest API, we’re gonna call 2 endpoints:
 
-Contribution: 2019-12-12 20:00
+- POST `api/auth/signup` for User Registration
+- POST `api/auth/signin` for User Login
+- POST `api/auth/signout` for User Logout
 
-Contribution: 2019-12-12 20:01
+You can take a look at following flow to have an overview of Requests and Responses:
 
-Contribution: 2019-12-17 20:00
+![mean-stack-authentication-authorization-flow](mean-stack-authentication-authorization-flow.png)
 
-Contribution: 2019-12-17 20:01
+## Run
 
-Contribution: 2019-12-18 20:00
+### Node.js Server
 
-Contribution: 2019-12-18 20:01
+Run `node server.js` for a dev server exporting API at http://localhost:8080/.
 
-Contribution: 2019-12-18 20:02
+### Angular Client
 
-Contribution: 2019-12-22 20:00
-
+Run `ng serve --port 8081`. Navigate to `http://localhost:8081/`.
